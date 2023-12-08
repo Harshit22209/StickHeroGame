@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="552.0" prefWidth="659.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#282828" height="298.0" layoutX="321.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="135.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff421f" height="9.0" layoutX="380.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#272828" height="298.0" layoutX="1.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="163.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1a1a1b" height="22.0" layoutX="134.0" layoutY="217.0" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+      <Line endX="100.0" startX="-100.0" />
+      <Circle layoutX="147.0" layoutY="229.0" radius="4.0" stroke="TRANSPARENT" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#151515" height="15.0" layoutX="134.0" layoutY="239.0" stroke="BLACK" strokeType="INSIDE" width="8.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#121313" height="15.0" layoutX="144.0" layoutY="239.0" stroke="BLACK" strokeType="INSIDE" width="8.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff261f" height="8.0" layoutX="134.0" layoutY="219.0" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#202020" height="232.0" layoutX="155.0" layoutY="22.0" stroke="BLACK" strokeType="INSIDE" width="8.0" />
+      <Label layoutX="250.0" layoutY="22.0" text="Score:0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="448.0" layoutY="22.0" prefHeight="35.0" prefWidth="110.0" text="Cherries:0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
