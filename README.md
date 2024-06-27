@@ -1,5 +1,12 @@
 # Multiplayer Stick-Hero Game
 
+## Technologies Used
+
+- **Backend**: Java
+- **Frontend**: JavaFx
+- **Database**: MongoDB
+
+
 ## Introduction
 
 This project brings the famous Stick Hero game to the world of multiplayer gaming using JavaFX and MongoDB. The game features both single-player and multiplayer functionalities, allowing users to compete with others. The game includes features like revive options, sound effects, and the ability to save game progress.
